@@ -5,7 +5,7 @@ attr_accessor :name, :author
 
   def initialize(name)
     @name = name
-    self.all << self
+    @@ALL << self
   end
 
   def self.all
