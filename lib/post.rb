@@ -9,7 +9,7 @@ attr_accessor :title, :author
   end
 
   def self.all
-    @@ALL
+    @@all
   end
 
   def title
