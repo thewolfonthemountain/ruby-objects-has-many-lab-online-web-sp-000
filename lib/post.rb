@@ -4,7 +4,7 @@ attr_accessor :title, :author
 @@all = []
 
   def initialize(title)
-    @title = name
+    @title = title
     @@all << self
   end
 
